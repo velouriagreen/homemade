@@ -1,9 +1,10 @@
 const path = require('path');
 
+
 module.exports = {
   mode: "development",
   entry: {
-    index: './index.js'
+    index: path.resolve(__dirname, 'client', 'index.js')
   },
   output: {
     filename: '[name].js',
