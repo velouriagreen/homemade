@@ -1,0 +1,35 @@
+{
+  "name": "homemade",
+  "version": "1.0.0",
+  "description": "Greenfield",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/velouriagreen/homemade.git"
+  },
+  "author": "Sam, Royce, Ryan, Raymond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/velouriagreen/homemade/issues"
+  },
+  "homepage": "https://github.com/velouriagreen/homemade#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "path": "^0.12.7",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
