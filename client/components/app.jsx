@@ -1,5 +1,5 @@
 
-import React from "react";
+import React from 'react';
 
 
 // class App extends React.Component {
@@ -11,11 +11,11 @@ import React from "react";
 // };
 
 const App = () => {
-    // render(
-    //     <h1>hello</h1>
-    // )
-    return (
-        <h1>hello</h1>
-    )
-}
+  // render(
+  //     <h1>hello</h1>
+  // )
+  return (
+    <h1>hello</h1>
+  );
+};
 export default App;
